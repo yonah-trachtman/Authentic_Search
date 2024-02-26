@@ -1,10 +1,10 @@
 {
-    "manifest_virsion": 3,
+    "manifest_version": 3,
     "name": "Authentic Search",
     "description": "Get only 1 result per site",
-    "version": "1.0",
-    "permissions": ["storage", "tabs"],
-    "host_permissoins": ["https://*.google.com/*"],
+    "version": "1.0.0",
+    "permissions": ["storage", "tabs", "scripting"],
+    "host_permissions": ["https://*.google.com/*"],
     "action":{
         "default_popup": "index.html"
     },
