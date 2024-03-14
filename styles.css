@@ -21,7 +21,17 @@ width: 316px;
 }
 
 
-.header {
+header h2 {
     font-family: 'Road Rage';
     color: rgba(4, 163, 255, 1);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainOne{
+    color: rgba(97, 111, 124, 1);
 }
