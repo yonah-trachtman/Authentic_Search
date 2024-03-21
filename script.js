@@ -14,4 +14,4 @@ let resultsCount = () => {
 
 
 
-btn.addEventListener("click", resultsCount());
+btn.addEventListener("click", resultsCount);
