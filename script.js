@@ -17,4 +17,4 @@ if (extensionActive == false) {
 }
 };
 
-onload.document.getElementById("actionButton").addEventListener("click", resultsCount());
+document.getElementById("actionButton").addEventListener("click", resultsCount());
