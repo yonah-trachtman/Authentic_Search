@@ -1,5 +1,5 @@
 let listOfResults = [];
-//const button = document.getElementById("button");
+const button = document.getElementById("button");
 const header = document.getElementById("numberBlocked");
 const startButton = document.getElementById("buttonCaption");
 let extensionActive = false;
@@ -22,4 +22,4 @@ if (extensionActive == false) {
 
 
 
-//document.getElementById("button").addEventListener("click", resultsCount());
+button.addEventListener("click", resultsCount());
