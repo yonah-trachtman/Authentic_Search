@@ -1,6 +1,6 @@
 let listOfResults = [];
-let btn = document.getElementById("src_btn");
-let list = document.getElementById("lst");
+const btn = document.getElementById("btn");
+const list = document.getElementById("list");
 
 
 
