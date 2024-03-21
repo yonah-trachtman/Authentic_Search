@@ -1,8 +1,17 @@
-/*const exit = document.getElementById("exit");
-
-const closePopup = () => {
-    self.close()
-}
+let listOfResults = [];
+let btn = document.getElementById("src_btn");
+let list = document.getElementById("lst");
 
 
-exit.addEventListener("click", closePopup);*/
+
+
+let resultsCount = () => {
+    let count = listOfResults.length()
+    list.textContent = `number of results is ${count}`
+};
+
+
+
+
+
+btn.addEventListener("click", resultsCount());
