@@ -3,6 +3,12 @@ height: 323px;
 width: 316px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .btn{
     background-color: rgba(3, 122, 255, 1);
     border-radius: 999px;
@@ -34,4 +40,15 @@ header {
 
 .mainOne{
     color: rgba(97, 111, 124, 1);
+}
+
+.most {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.WarnSign {
+    align-self: flex-end;
 }

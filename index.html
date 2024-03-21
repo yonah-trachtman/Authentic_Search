@@ -14,13 +14,16 @@
         <h2 class="header">Authentic Search</h2>
     </header>
     <main>
-        <h1>Ready to see results from multiple sites?</h1>
+        <h2 id="numberBlocked">Ready to see results from multiple sites?</h2>
+        <figure id="mostSites" class="most">
+            <img src="./pictures/IconShape.png" alt="Warning Sign" class="WarnSign">
+            <figcaption class="cptn1">N/A</figcaption>
+        </figure>
         <p class="MainOne">Get only 1 result per site and make sure you’re not only seeing sites with good marketing.</p>
-        <p id="list">button not yet pressed</p>
-        <button class="btn" id="btn">
+        <button id="button" class="btn" onclick="resultsCount()">
             <figure class="fig"> 
                 <img src="./pictures/Vector.png" alt="lightning" class="ltng">
-                <figcaption class="cptn">Turn on Authentic Search</figcaption>
+                <figcaption class="cptn" id="buttonCaption">Turn on Authentic Search</figcaption>
             </figure>
         </button>
     </main>

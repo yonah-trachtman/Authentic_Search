@@ -1,17 +1,25 @@
 let listOfResults = [];
-const btn = document.getElementById("btn");
-const list = document.getElementById("list");
+//const button = document.getElementById("button");
+const header = document.getElementById("numberBlocked");
+const startButton = document.getElementById("buttonCaption");
+let extensionActive = false;
 
 
 
 
-let resultsCount = () => {
-    let count = listOfResults.length()
-    list.textContent = `number of results is ${count}`
+resultsCount = () => {
+    let count = listOfResults.length
+if (extensionActive == false) {
+    header.textContent = `${count} results blocked!`
+    startButton.textContent = "Turn off Authentic Search"
+} else {
+    header.textContent = "Ready to see results from multiple sites?"
+    startButton.textContent = "Turn on Authentic Search"
+}
 };
 
 
 
 
 
-btn.addEventListener("click", resultsCount);
+//document.getElementById("button").addEventListener("click", resultsCount());
