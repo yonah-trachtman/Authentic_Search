@@ -1,1 +1,1 @@
-chrome.tabs.onUpdated
+//chrome.tabs.onUpdated

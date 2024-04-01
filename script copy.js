@@ -1,14 +1,11 @@
 let listOfResults = [];
-const actionButton = document.getElementById("actionButton");
+let actionButton = document.getElementById("actionButton");
+//const actionButton = document.getElementById("actionButton");
 let extensionActive = false;
 
 resultsCount = () => {
     const header = document.getElementById("numberBlocked");
     const startButton = document.getElementById("buttonCaption");
-chrome.tabs.forEach(cite =>  { 
-    listOfResults.push(cite)
-    });
-
     let count = listOfResults.length
 if (extensionActive == false) {
     header.textContent = `${count} results blocked!`
@@ -21,4 +18,4 @@ if (extensionActive == false) {
 }
 };
 
-actionButton.addEventListener("click", resultsCount)
+actionButton.addEventListener("click", resultsCount());
